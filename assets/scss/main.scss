@@ -1,0 +1,49 @@
+@import "variables";
+//@import "header";
+//@import "footer";
+//@import "swiper-slide";
+//@import "news-events";
+//@import "inner-page-banner";
+//@import "image-gallery";
+//@import "committee";
+@import "flooting-contact";
+
+body {
+  background-color: $bg-color;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.separator {
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 15px;
+
+  &:before {
+    content: "";
+    background: $text-color-20;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+  }
+
+  span {
+    background: #fff;
+    z-index: 2;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+  }
+}

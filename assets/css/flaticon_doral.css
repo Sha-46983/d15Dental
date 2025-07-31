@@ -1,0 +1,319 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_doral";
+    src: url("../fonts/flaticon_doral.woff2?73c0c36c4aaa4f5a2b985ad71ecabea6") format("woff2"),
+url("../fonts/flaticon_doral.woff?73c0c36c4aaa4f5a2b985ad71ecabea6") format("woff"),
+url("../fonts/flaticon_doral.eot?73c0c36c4aaa4f5a2b985ad71ecabea6#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_doral.ttf?73c0c36c4aaa4f5a2b985ad71ecabea6") format("truetype"),
+url("../fonts/flaticon_doral.svg?73c0c36c4aaa4f5a2b985ad71ecabea6#flaticon_doral") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_doral !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-play-button-arrowhead:before {
+    content: "\f101";
+}
+.flaticon-search-interface-symbol:before {
+    content: "\f102";
+}
+.flaticon-down-arrow:before {
+    content: "\f103";
+}
+.flaticon-anesthesia:before {
+    content: "\f104";
+}
+.flaticon-baby:before {
+    content: "\f105";
+}
+.flaticon-bacteria:before {
+    content: "\f106";
+}
+.flaticon-breath:before {
+    content: "\f107";
+}
+.flaticon-tooth:before {
+    content: "\f108";
+}
+.flaticon-broken-tooth:before {
+    content: "\f109";
+}
+.flaticon-tooth-1:before {
+    content: "\f10a";
+}
+.flaticon-dental-care:before {
+    content: "\f10b";
+}
+.flaticon-dentist:before {
+    content: "\f10c";
+}
+.flaticon-dental:before {
+    content: "\f10d";
+}
+.flaticon-dental-1:before {
+    content: "\f10e";
+}
+.flaticon-dental-2:before {
+    content: "\f10f";
+}
+.flaticon-dental-implant:before {
+    content: "\f110";
+}
+.flaticon-dentist-1:before {
+    content: "\f111";
+}
+.flaticon-dental-care-1:before {
+    content: "\f112";
+}
+.flaticon-tooth-2:before {
+    content: "\f113";
+}
+.flaticon-dental-3:before {
+    content: "\f114";
+}
+.flaticon-gum:before {
+    content: "\f115";
+}
+.flaticon-dental-4:before {
+    content: "\f116";
+}
+.flaticon-dentist-2:before {
+    content: "\f117";
+}
+.flaticon-dentist-3:before {
+    content: "\f118";
+}
+.flaticon-denture:before {
+    content: "\f119";
+}
+.flaticon-dental-care-2:before {
+    content: "\f11a";
+}
+.flaticon-tooth-3:before {
+    content: "\f11b";
+}
+.flaticon-tooth-4:before {
+    content: "\f11c";
+}
+.flaticon-dental-care-3:before {
+    content: "\f11d";
+}
+.flaticon-smile:before {
+    content: "\f11e";
+}
+.flaticon-teeth:before {
+    content: "\f11f";
+}
+.flaticon-white-teeth:before {
+    content: "\f120";
+}
+.flaticon-tooth-cleaning:before {
+    content: "\f121";
+}
+.flaticon-tooth-5:before {
+    content: "\f122";
+}
+.flaticon-tooth-6:before {
+    content: "\f123";
+}
+.flaticon-dental-5:before {
+    content: "\f124";
+}
+.flaticon-toothache:before {
+    content: "\f125";
+}
+.flaticon-tooth-7:before {
+    content: "\f126";
+}
+.flaticon-x-ray:before {
+    content: "\f127";
+}
+.flaticon-checkmark:before {
+    content: "\f128";
+}
+.flaticon-star:before {
+    content: "\f129";
+}
+.flaticon-tick:before {
+    content: "\f12a";
+}
+.flaticon-calendar:before {
+    content: "\f12b";
+}
+.flaticon-up-right-arrow:before {
+    content: "\f12c";
+}
+.flaticon-cavity:before {
+    content: "\f12d";
+}
+.flaticon-hand-washing:before {
+    content: "\f12e";
+}
+.flaticon-pills:before {
+    content: "\f12f";
+}
+.flaticon-dental-care-4:before {
+    content: "\f130";
+}
+.flaticon-tooth-hygiene:before {
+    content: "\f131";
+}
+.flaticon-x-ray-1:before {
+    content: "\f132";
+}
+.flaticon-gloves:before {
+    content: "\f133";
+}
+.flaticon-x-rays:before {
+    content: "\f134";
+}
+.flaticon-toothbrushes:before {
+    content: "\f135";
+}
+.flaticon-teeth-1:before {
+    content: "\f136";
+}
+.flaticon-health-report:before {
+    content: "\f137";
+}
+.flaticon-tooth-extraction:before {
+    content: "\f138";
+}
+.flaticon-washing-hands:before {
+    content: "\f139";
+}
+.flaticon-dentist-tools:before {
+    content: "\f13a";
+}
+.flaticon-toothpaste:before {
+    content: "\f13b";
+}
+.flaticon-dental-report:before {
+    content: "\f13c";
+}
+.flaticon-baby-teeth:before {
+    content: "\f13d";
+}
+.flaticon-nurse:before {
+    content: "\f13e";
+}
+.flaticon-tissue-box:before {
+    content: "\f13f";
+}
+.flaticon-magnifying-glass:before {
+    content: "\f140";
+}
+.flaticon-x-rays-1:before {
+    content: "\f141";
+}
+.flaticon-tooth-8:before {
+    content: "\f142";
+}
+.flaticon-face-mask:before {
+    content: "\f143";
+}
+.flaticon-dental-pliers:before {
+    content: "\f144";
+}
+.flaticon-mouthwash:before {
+    content: "\f145";
+}
+.flaticon-dental-care-5:before {
+    content: "\f146";
+}
+.flaticon-dental-record:before {
+    content: "\f147";
+}
+.flaticon-dental-probe:before {
+    content: "\f148";
+}
+.flaticon-toothbrushing:before {
+    content: "\f149";
+}
+.flaticon-dentistry:before {
+    content: "\f14a";
+}
+.flaticon-dental-checkup:before {
+    content: "\f14b";
+}
+.flaticon-oxygen-mask:before {
+    content: "\f14c";
+}
+.flaticon-soap:before {
+    content: "\f14d";
+}
+.flaticon-dental-report-1:before {
+    content: "\f14e";
+}
+.flaticon-dentist-4:before {
+    content: "\f14f";
+}
+.flaticon-nurse-1:before {
+    content: "\f150";
+}
+.flaticon-toothpaste-1:before {
+    content: "\f151";
+}
+.flaticon-mouth-hygiene:before {
+    content: "\f152";
+}
+.flaticon-tooth-extraction-1:before {
+    content: "\f153";
+}
+.flaticon-braces:before {
+    content: "\f154";
+}
+.flaticon-orthodontist:before {
+    content: "\f155";
+}
+.flaticon-orthodontic:before {
+    content: "\f156";
+}
+.flaticon-electric-toothbrush:before {
+    content: "\f157";
+}
+.flaticon-oral-care:before {
+    content: "\f158";
+}
+.flaticon-toothbrush:before {
+    content: "\f159";
+}
+.flaticon-dental-care-6:before {
+    content: "\f15a";
+}
+.flaticon-signage:before {
+    content: "\f15b";
+}
+.flaticon-toothbrush-1:before {
+    content: "\f15c";
+}
+.flaticon-pills-1:before {
+    content: "\f15d";
+}
+.flaticon-antiseptic:before {
+    content: "\f15e";
+}
+.flaticon-text:before {
+    content: "\f15f";
+}
+.flaticon-quote:before {
+    content: "\f160";
+}

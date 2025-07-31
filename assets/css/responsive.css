@@ -1,0 +1,2637 @@
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .ptb-150 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pt-150 {
+    padding-top: 50px;
+  }
+  .pb-150 {
+    padding-bottom: 50px;
+  }
+  .pb-125 {
+    padding-bottom: 25px;
+  }
+  .default-btn {
+    padding: 12.5px 25px;
+    font-size: 15px;
+  }
+  .section-title {
+    margin-bottom: 30px;
+  }
+  .section-title h2 {
+    font-size: 25px;
+  }
+  .top-header-area {
+    padding-bottom: 20px;
+  }
+  .top-header-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .top-header-left {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .top-header-left li {
+    font-size: 14px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .top-header-left li svg {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+  }
+  .top-header-left li:last-child {
+    margin-bottom: 0;
+  }
+  .top-header-info {
+    display: block;
+  }
+  .top-header-info li {
+    font-size: 14px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .top-header-info li svg {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+  }
+  .top-header-info li:last-child {
+    margin-bottom: 0;
+  }
+  .navbar .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .navbar .navbar-inner {
+    padding: 10px 20px;
+  }
+  .navbar.sticky {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .main-header-area {
+    padding-top: 20px;
+  }
+  .dental-clinic-slider-area {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .dental-clinic-slider-item {
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    padding-top: 325px;
+    padding-bottom: 280px;
+  }
+  .dental-clinic-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .dental-clinic-slider-item::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .dental-clinic-slider-item .dental-clinic-ratings {
+    display: none;
+  }
+  .dental-clinic-slider-content .sub {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .dental-clinic-slider-content h1 {
+    font-size: 42px;
+  }
+  .dental-clinic-slider-content .slider-btn {
+    display: block;
+    margin-top: 25px;
+  }
+  .dental-clinic-slider-content .slider-btn li {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+  .dental-clinic-slider-content .slider-btn li:last-child {
+    margin-bottom: 0;
+  }
+  .dental-clinic-video-wrap {
+    right: 20px;
+    bottom: 85px;
+  }
+  .what-we-do-card .content {
+    padding: 25px;
+  }
+  .what-we-do-card .content h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .what-we-do-card .content .list {
+    margin-bottom: 20px;
+  }
+  .what-we-do-card .content .list li {
+    padding: 10px 15px;
+  }
+  .what-we-do-card .content p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .about-image {
+    height: 500px;
+  }
+  .about-content {
+    padding: 30px 0 0 0;
+  }
+  .about-content h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .about-content .list li {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .about-content .list li svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+  }
+  .about-content .list li:nth-child(2) {
+    left: 0;
+  }
+  .about-content .list li:nth-child(3) {
+    left: 0;
+  }
+  .about-content .info {
+    display: block;
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  .about-content .info li {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .about-content .info li:last-child {
+    margin-bottom: 0;
+  }
+  .services-item {
+    padding: 25px;
+  }
+  .services-item .service-image {
+    padding-right: 0;
+  }
+  .services-item .service-content {
+    margin-top: 25px;
+  }
+  .services-item .service-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .services-item .service-content p {
+    margin-bottom: 20px;
+  }
+  .appointment-form {
+    padding: 25px;
+  }
+  .appointment-form h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .appointment-form form .form-group label {
+    font-size: 14px;
+  }
+  .appointment-form .arrow-shape {
+    display: none;
+  }
+  .features-content {
+    padding: 30px 25px;
+  }
+  .features-content h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .features-content p {
+    font-size: 15px;
+  }
+  .features-content .list {
+    margin-top: 12px;
+  }
+  .insurance-area .col {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .insurance-item {
+    border: 1px solid rgba(160, 177, 193, 0.2) !important;
+    height: 100px;
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+  }
+  .doctors-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .doctors-card .doctor-content .list li a {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .review-inner h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .review-inner .ratings-box {
+    display: block;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .review-inner .ratings-box .content h5 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .review-inner .ratings-box .content h5 span {
+    font-size: 12px;
+  }
+  .review-inner .ratings-box .content .list {
+    margin-bottom: 15px;
+  }
+  .review-inner .ratings-box .content .list li i {
+    font-size: 15px;
+  }
+  .review-inner .ratings-box .content .list li span {
+    font-size: 12px;
+    left: 7px;
+  }
+  .review-card {
+    padding: 25px;
+  }
+  .review-card .rating {
+    margin-bottom: 15px;
+  }
+  .review-card p {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .review-arrow-shape {
+    display: none;
+  }
+  .real-results-card .real-content {
+    padding: 25px;
+  }
+  .real-results-card .real-content .list li {
+    display: block;
+  }
+  .real-results-card .real-content .list li span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .blog-card {
+    margin-bottom: 25px;
+  }
+  .blog-card .blog-content {
+    padding: 25px;
+  }
+  .blog-card .blog-content h3 {
+    margin-bottom: 18px;
+  }
+  .subscribe-inner-area {
+    padding: 50px 25px;
+    margin-bottom: 50px;
+  }
+  .subscribe-content .sub {
+    padding: 5px 10px;
+    margin-bottom: 15px;
+  }
+  .subscribe-content h3 {
+    font-size: 25px;
+  }
+  .subscribe-form {
+    margin-top: 30px;
+  }
+  .subscribe-form .form-control {
+    padding: 15px 25px 15px 25px;
+  }
+  .subscribe-form .default-btn {
+    position: relative;
+    margin-top: 15px;
+    height: 55px;
+  }
+  .footer-area {
+    border-radius: 0;
+    padding-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .single-footer-widget.pe-5 {
+    padding-right: 0 !important;
+  }
+  .single-footer-widget.ps-5 {
+    padding-left: 0 !important;
+  }
+  .single-footer-widget .info-list li {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .copyright-area {
+    margin-top: 25px;
+  }
+  .copyright-area p {
+    font-size: 14px;
+  }
+  .pediatric-dentist-banner-area {
+    padding-top: 50px;
+  }
+  .pediatric-dentist-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .pediatric-dentist-banner-content {
+    padding-top: 0;
+  }
+  .pediatric-dentist-banner-content h1 {
+    font-size: 30px;
+  }
+  .pediatric-dentist-banner-content h1 img {
+    top: -1.5px;
+    max-width: 45px;
+  }
+  .pediatric-dentist-banner-content .list {
+    margin-top: 25px;
+  }
+  .pediatric-dentist-banner-content .bottom-content {
+    display: block;
+    margin-top: 35px;
+  }
+  .pediatric-dentist-banner-content .bottom-content p {
+    padding: 20px;
+    font-size: 15px;
+    max-width: 100%;
+  }
+  .pediatric-dentist-banner-content .bottom-content .info {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+  .pediatric-dentist-banner-image {
+    height: 550px;
+    margin-left: 0;
+    margin-top: 35px;
+  }
+  .pediatric-dentist-banner-image .video-wrap {
+    left: 25px;
+    bottom: 25px;
+  }
+  .pediatric-dentist-banner-shape {
+    display: none;
+  }
+  .features-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .features-wrap-card {
+    padding: 30px;
+  }
+  .features-wrap-card .icon {
+    margin-bottom: 30px;
+  }
+  .features-wrap-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .features-wrap-card p {
+    margin-bottom: 20px;
+  }
+  .about-wrap-image {
+    padding-right: 0;
+  }
+  .about-wrap-image .image-three {
+    margin-bottom: 30px;
+  }
+  .about-wrap-image .image-three .star-wrap {
+    right: 10px;
+    top: -20px;
+  }
+  .about-wrap-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .about-wrap-content h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .about-wrap-content strong {
+    font-size: 15px;
+  }
+  .about-wrap-content .list li {
+    font-size: 15px;
+  }
+  .services-wrap-item {
+    padding: 25px;
+    background-color: #F8F8F5;
+    border-radius: 10px;
+    border: none;
+  }
+  .services-wrap-item .services-left {
+    display: block;
+  }
+  .services-wrap-item .services-left .number {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    transform: unset;
+    margin-bottom: 15px;
+  }
+  .services-wrap-item .services-left h3 {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+  .services-wrap-item .services-left .arrow-btn {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .services-wrap-item .services-middle p {
+    font-size: 15px;
+    max-width: 100%;
+  }
+  .services-wrap-item .services-right {
+    text-align: start;
+  }
+  .services-wrap-item .services-right .arrow-btn {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .services-wrap-item .services-right .services-image {
+    position: relative;
+    top: unset;
+    transform: unset;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 25px;
+  }
+  .services-wrap-item .services-right .services-image a img {
+    max-width: 100%;
+  }
+  .services-wrap-item:hover, .services-wrap-item.active {
+    padding: 25px;
+    border: none;
+  }
+  .review-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .review-wrap-card {
+    padding: 20px;
+  }
+  .review-wrap-card .rating {
+    margin-bottom: 15px;
+  }
+  .review-wrap-card .info {
+    margin-top: 20px;
+  }
+  .review-wrap-card .info .title h5 {
+    font-size: 15px;
+  }
+  .review-wrap-card .info .quote i {
+    font-size: 20px;
+  }
+  .insurance-wrap-item {
+    padding-right: 0;
+  }
+  .insurance-wrap-item .col {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .insurance-wrap-item .item {
+    border: 1px solid rgba(160, 177, 193, 0.2) !important;
+    height: 100px;
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+  }
+  .insurance-wrap-content {
+    padding: 25px;
+    margin-top: 25px;
+  }
+  .insurance-wrap-content h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .insurance-wrap-content .list li {
+    font-size: 15px;
+  }
+  .why-choose-us-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .why-choose-us-card .choose-content {
+    padding: 25px;
+  }
+  .why-choose-us-card .choose-content h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .video-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .video-content .sub {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .video-content h3 {
+    font-size: 25px;
+  }
+  .fun-fact-area {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .fun-fact-card h3 {
+    font-size: 40px;
+  }
+  .dental-treatment-banner-area {
+    padding-top: 135px;
+    padding-bottom: 50px;
+  }
+  .dental-treatment-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .dental-treatment-banner-area::before {
+    background: #000000;
+    opacity: 0.3;
+  }
+  .dental-treatment-banner-content .sub {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .dental-treatment-banner-content h1 {
+    font-size: 35px;
+  }
+  .dental-treatment-banner-content h1 span::before {
+    display: none;
+  }
+  .dental-treatment-banner-content .banner-btn {
+    margin-top: 25px;
+  }
+  .dental-treatment-review-slider {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    max-width: 525px;
+    margin-top: 35px;
+  }
+  .dental-treatment-review-slider .content {
+    padding: 20px;
+  }
+  .dental-treatment-review-slider .content p {
+    font-size: 14px;
+  }
+  .dental-treatment-ratings {
+    display: none;
+  }
+  .boxes-card {
+    padding: 0 20px 20px 20px;
+  }
+  .boxes-card .icon {
+    margin-bottom: 10px;
+  }
+  .category-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .category-card .list {
+    top: 20px;
+    left: 20px;
+    right: 20px;
+  }
+  .category-card .list li {
+    padding: 10px 7px;
+    font-size: 15px;
+  }
+  .category-card .content {
+    display: block;
+    padding: 20px;
+  }
+  .category-card .content h3 {
+    font-size: 25px;
+  }
+  .category-card .content .category-btn {
+    display: block;
+    margin-top: 25px;
+  }
+  .category-card .content .category-btn i {
+    margin-left: 0;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+  }
+  .advertise-view-content h1 {
+    font-size: 35px;
+  }
+  .overview-image {
+    height: 550px;
+  }
+  .overview-content {
+    padding: 25px;
+    margin-top: 30px;
+  }
+  .overview-content h2 {
+    font-size: 25px;
+    margin-bottom: 35px;
+  }
+  .overview-content .inner {
+    padding-left: 0;
+  }
+  .overview-content .inner .icon {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  .overview-content .list {
+    display: block;
+  }
+  .overview-content .list li {
+    font-size: 14px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .overview-content .list li:last-child {
+    margin-bottom: 0;
+  }
+  .services-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .services-wrap-card {
+    padding: 25px;
+  }
+  .services-wrap-card .icon {
+    margin-bottom: 20px;
+  }
+  .services-wrap-card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .services-wrap-card p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+  }
+  .services-wrap-card .list {
+    margin-bottom: 15px;
+  }
+  .services-wrap-card .list li {
+    margin-bottom: 15px;
+  }
+  .services-wrap-card .services-btn {
+    margin-top: 10px;
+  }
+  .video-area.bg-wrap-two {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .appointment-without-bg-area {
+    margin-top: 50px;
+  }
+  .appointment-content {
+    top: 0;
+  }
+  .appointment-content h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .real-results-wrap-card h3 {
+    font-size: 22px;
+    padding: 20px;
+  }
+  .review-wrap-content {
+    margin: 0 auto 45px;
+  }
+  .review-wrap-content h2 {
+    font-size: 25px;
+    margin: 0 auto 15px;
+  }
+  .review-wrap-content p {
+    margin-bottom: 25px;
+  }
+  .review-wrap-content .list {
+    display: block;
+    text-align: start;
+  }
+  .review-wrap-content .list li {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .review-wrap-content .list li:last-child {
+    margin-bottom: 0;
+  }
+  .doctors-inner {
+    padding-right: 0;
+  }
+  .doctors-inner h2 {
+    font-size: 25px;
+  }
+  .doctors-circle-card {
+    margin-top: 30px;
+  }
+  .doctors-faq-content {
+    padding: 25px;
+    margin-top: 30px;
+  }
+  .doctors-faq-content h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .doctors-faq-content .doctors-accordion .accordion-item .accordion-button {
+    font-size: 18px;
+    padding: 0 40px 0 0;
+  }
+  .blog-item .content {
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+  }
+  .blog-item .content h3 {
+    font-size: 18px;
+  }
+  .blog-item .content .meta {
+    margin-top: 15px;
+  }
+  .page-banner-area {
+    border-radius: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 300px;
+    padding-bottom: 50px;
+  }
+  .page-banner-area::before {
+    border-radius: 0;
+  }
+  .page-banner-content h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .page-banner-content h2::before {
+    height: 40px;
+  }
+  .page-banner-content .list {
+    display: block;
+  }
+  .page-banner-content .list li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .page-banner-content .list li::before {
+    display: none;
+  }
+  .page-banner-content .list li:last-child {
+    margin-bottom: 0;
+  }
+  .about-wrap-area.bg-with-color .about-wrap-content {
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .about-wrap-area.bg-with-color .about-wrap-image {
+    padding-left: 0;
+  }
+  .insurance-wrap-content.wrap-style-two {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .insurance-wrap-item.wrap-style-two {
+    padding-left: 0;
+  }
+  .appointment-wrap-box {
+    padding: 25px;
+  }
+  .appointment-wrap-box .box {
+    margin-top: 25px;
+  }
+  .cta-inner-area {
+    padding: 50px 25px;
+    margin-bottom: 50px;
+  }
+  .cta-content h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .cta-info {
+    justify-content: start;
+    margin-top: 20px;
+  }
+  .cta-info span {
+    font-size: 14px;
+  }
+  .appointment-wrap-inner {
+    padding: 30px;
+  }
+  .appointment-wrap-inner h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .membership-plan-card {
+    padding: 25px;
+  }
+  .membership-plan-card h3 {
+    margin-bottom: 20px;
+  }
+  .membership-plan-card .price {
+    margin-bottom: 20px;
+  }
+  .membership-plan-card .price h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .membership-plan-card p {
+    margin-bottom: 20px;
+  }
+  .membership-plan-card .list li {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .membership-plan-card .price-btn {
+    margin-top: 25px;
+  }
+  .testimonials-content p {
+    font-size: 18px;
+  }
+  .testimonials-content .info {
+    margin-top: 20px;
+  }
+  .testimonials-pagination {
+    position: relative;
+    text-align: start;
+    margin-top: 30px;
+  }
+  .dentist-profile-sidebar {
+    margin-bottom: 30px;
+  }
+  .dentist-profile-sidebar .profile-info {
+    padding: 25px;
+  }
+  .dentist-profile-desc {
+    padding: 25px;
+  }
+  .dentist-profile-desc h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .dentist-profile-desc h3 {
+    font-size: 18px;
+  }
+  .about-insurance-content {
+    padding: 25px;
+  }
+  .about-insurance-content h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .about-insurance-content p {
+    font-size: 15px;
+  }
+  .find-location-card {
+    padding: 25px;
+  }
+  .find-location-card .location-left h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .find-location-card .location-left .bottom {
+    margin-top: 20px;
+  }
+  .find-location-card .location-right {
+    text-align: start;
+    margin-top: 25px;
+  }
+  .find-location-card .location-right .location-btn {
+    margin-top: 25px;
+  }
+  .compassionate-content h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .compassionate-list {
+    margin-top: 30px;
+  }
+  .compassionate-list li {
+    padding: 10px 15px;
+  }
+  .compassionate-list li:nth-child(2) {
+    margin-left: 0;
+  }
+  .compassionate-list li:nth-child(3) {
+    margin-left: 0;
+  }
+  .new-patients-content h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .new-patients-item .item {
+    display: block;
+    padding: 25px;
+  }
+  .new-patients-item .item h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .ratings-wrap-box {
+    display: block;
+    padding: 25px;
+  }
+  .ratings-wrap-box .content h5 {
+    font-size: 25px;
+  }
+  .ratings-wrap-box .content h5 span {
+    font-size: 12px;
+  }
+  .ratings-wrap-box .content .list {
+    margin-bottom: 15px;
+  }
+  .ratings-wrap-box .content .list li i {
+    font-size: 15px;
+  }
+  .ratings-wrap-box .content .list li span {
+    font-size: 12px;
+    left: 7px;
+  }
+  .contact-info-card {
+    padding: 25px;
+  }
+  .contact-info-card .icon {
+    margin: 0 auto 20px;
+  }
+  .contact-info-card h3 {
+    margin-bottom: 12px;
+  }
+  .contact-us-form {
+    padding: 25px;
+  }
+  .services-wrap-area.without-bg-color .services-wrap-item {
+    background-color: #FFFFFF;
+    border: none;
+  }
+  .services-wrap-area.without-bg-color .services-wrap-item:hover, .services-wrap-area.without-bg-color .services-wrap-item.active {
+    border: none;
+  }
+  .services-details-sidebar {
+    margin-bottom: 30px;
+  }
+  .services-details-sidebar .services-box {
+    padding: 25px;
+  }
+  .services-details-sidebar .working-info {
+    padding: 25px;
+  }
+  .services-details-desc .block-image .icon {
+    right: 10px;
+    bottom: 10px;
+  }
+  .services-details-desc .desc-inner {
+    padding: 25px;
+  }
+  .services-details-desc .desc-inner h2 {
+    font-size: 25px;
+  }
+  .services-details-desc .desc-inner h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .services-details-desc .desc-inner .list li {
+    margin-left: 0;
+    font-size: 15px;
+  }
+  .services-details-desc .desc-inner .list li:nth-child(2) {
+    margin-left: 0;
+  }
+  .services-details-desc .desc-inner .list li:nth-child(3) {
+    margin-left: 0;
+  }
+  .services-details-desc .desc-inner .number-list {
+    display: block;
+  }
+  .services-details-desc .desc-inner .number-list li {
+    font-size: 15px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .services-details-desc .desc-inner .number-list li:last-child {
+    margin-bottom: 0;
+  }
+  .services-details-desc .desc-inner .bottom-list li {
+    font-size: 15px;
+  }
+  .blog-details-desc .article-content .inner {
+    padding: 25px;
+  }
+  .blog-details-desc .article-content .inner .meta {
+    display: block;
+  }
+  .blog-details-desc .article-content .inner .meta li {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .blog-details-desc .article-content .inner .meta li::before {
+    display: none;
+  }
+  .blog-details-desc .article-content .inner .meta li:last-child {
+    margin-bottom: 0;
+  }
+  .blog-details-desc .article-content .inner h2 {
+    font-size: 25px;
+  }
+  .blog-details-desc .article-content .inner .quote {
+    padding: 25px;
+  }
+  .blog-details-desc .article-content .inner .quote p {
+    font-size: 15px;
+  }
+  .blog-details-desc .article-content .inner h3 {
+    margin-top: 30px;
+  }
+  .blog-details-desc .article-footer {
+    padding: 25px;
+  }
+  .blog-details-desc .article-footer .tags {
+    display: block;
+  }
+  .blog-details-desc .article-footer .tags li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .blog-details-desc .article-footer .tags li span {
+    font-size: 15px;
+  }
+  .blog-details-desc .article-footer .tags li:last-child {
+    margin-bottom: 0;
+  }
+  .blog-details-desc .article-footer .social {
+    display: block;
+    margin-top: 20px;
+  }
+  .blog-details-desc .article-footer .social li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .blog-details-desc .article-footer .social li span {
+    font-size: 15px;
+  }
+  .blog-details-desc .article-footer .social li:last-child {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .blog-details-desc .article-comment {
+    padding: 25px;
+  }
+  .blog-details-desc .article-comment .comment-list {
+    padding-left: 50px;
+  }
+  .blog-details-desc .article-comment .comment-list img {
+    max-width: 35px;
+  }
+  .blog-details-desc .article-comment .comment-list .reply-btn {
+    position: relative;
+    margin-top: 12px;
+  }
+  .blog-details-desc .article-reply {
+    padding: 25px;
+  }
+  .widget-area {
+    margin-top: 30px;
+  }
+  .products-grid-box .select-box {
+    display: block;
+  }
+  .products-grid-box .select-box .box {
+    margin-top: 15px;
+    margin-right: 0;
+  }
+  .shopping-cart-buttons .shopping-coupon-code {
+    margin-bottom: 20px;
+  }
+  .shopping-cart-totals {
+    padding: 25px;
+  }
+  .checkout-info-form {
+    padding: 25px;
+  }
+  .checkout-info-sidebar {
+    margin-top: 30px;
+  }
+  .checkout-info-sidebar .product-box {
+    padding: 25px;
+  }
+  .checkout-info-sidebar .payment-method {
+    padding: 25px;
+  }
+  .profile-authentication-box {
+    padding: 25px;
+  }
+  .profile-authentication-box .authentication-form .form-bottom.d-flex {
+    display: block !important;
+  }
+  .profile-authentication-box .authentication-form .form-bottom .form-check {
+    margin-bottom: 15px;
+  }
+  .forgot-password-box {
+    padding: 25px;
+  }
+  .product-details-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .product-details-content .quantity-and-add-to-cart {
+    display: block;
+  }
+  .product-details-content .quantity-and-add-to-cart li {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .product-details-content .quantity-and-add-to-cart li:last-child {
+    margin-bottom: 0;
+  }
+  .product-details-content .list li a {
+    padding: 5px;
+    font-size: 13.5px;
+  }
+  .product-details-information-tabs .nav .nav-item {
+    margin-right: 45px;
+  }
+  .product-details-information-tabs .comments-form {
+    padding: 25px;
+  }
+  .product-details-information-tabs .comments-form .title {
+    display: block;
+  }
+  .product-details-information-tabs .comments-form .title .rating {
+    margin-top: 12px;
+  }
+  .product-details-information-tabs .comments-form .title .rating li {
+    margin-right: 7px;
+  }
+  .product-details-information-tabs .comments-form .title .rating li span {
+    font-size: 12px;
+  }
+  .product-details-information-tabs .comments-form .title .rating li i {
+    font-size: 15px;
+  }
+}
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .page-banner-content .list {
+    display: flex;
+  }
+  .page-banner-content .list li {
+    margin-right: 35px;
+    margin-bottom: 0;
+  }
+  .page-banner-content .list li::before {
+    display: block;
+  }
+  .profile-authentication-box .authentication-form .form-bottom.d-flex {
+    display: flex !important;
+  }
+  .profile-authentication-box .authentication-form .form-bottom .form-check {
+    margin-bottom: 0;
+  }
+}
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ptb-150 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .pt-150 {
+    padding-top: 70px;
+  }
+  .pb-150 {
+    padding-bottom: 70px;
+  }
+  .pb-125 {
+    padding-bottom: 45px;
+  }
+  .top-header-area {
+    padding-bottom: 20px;
+  }
+  .top-header-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .top-header-left {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .top-header-info {
+    justify-content: center;
+  }
+  .navbar .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .navbar .navbar-inner {
+    padding: 10px 20px;
+  }
+  .navbar.sticky {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar.sticky .others-option {
+    right: 85px;
+  }
+  .navbar .collapse:not(.show) {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar .others-option {
+    position: absolute;
+    right: 75px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .navbar .others-option .option-item {
+    margin-right: 15px;
+  }
+  .navbar .others-option .option-item .default-btn {
+    padding: 10.5px 20px;
+    font-size: 15px;
+  }
+  .main-header-area {
+    padding-top: 20px;
+  }
+  .responsive-navbar .offcanvas-body .others-option {
+    display: none !important;
+  }
+  .dental-clinic-slider-area {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .dental-clinic-slider-item {
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    padding-top: 300px;
+    padding-bottom: 250px;
+  }
+  .dental-clinic-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .dental-clinic-slider-item::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .dental-clinic-slider-item .dental-clinic-ratings {
+    display: none;
+  }
+  .dental-clinic-slider-content h1 {
+    font-size: 70px;
+  }
+  .dental-clinic-video-wrap {
+    right: 50px;
+    bottom: 85px;
+  }
+  .what-we-do-card .content {
+    padding: 25px;
+  }
+  .what-we-do-card .content h3 {
+    margin-bottom: 20px;
+  }
+  .what-we-do-card .content .list {
+    margin-bottom: 20px;
+  }
+  .what-we-do-card .content .list li {
+    padding: 10px 15px;
+  }
+  .what-we-do-card .content p {
+    margin-bottom: 20px;
+  }
+  .about-image {
+    height: 610px;
+  }
+  .about-content {
+    padding: 30px 0 0 0;
+  }
+  .about-content p {
+    max-width: 100%;
+  }
+  .appointment-form .arrow-shape {
+    display: none;
+  }
+  .features-content {
+    padding: 50px;
+  }
+  .features-images {
+    display: flex;
+  }
+  .features-images .image {
+    margin-bottom: 0;
+    margin-right: 25px;
+  }
+  .features-images .image:last-child {
+    margin-right: 0;
+  }
+  .insurance-area .col {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .insurance-item {
+    border: 1px solid rgba(160, 177, 193, 0.2) !important;
+    height: 100px;
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+  }
+  .doctors-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .doctors-card .doctor-content .list li a {
+    padding: 5px 10px;
+  }
+  .blog-card {
+    margin-bottom: 25px;
+  }
+  .subscribe-inner-area {
+    padding: 70px;
+  }
+  .subscribe-form {
+    margin-top: 30px;
+  }
+  .footer-area {
+    border-radius: 0;
+    padding-top: 170px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .single-footer-widget.pe-5 {
+    padding-right: 0 !important;
+  }
+  .single-footer-widget.ps-5 {
+    padding-left: 0 !important;
+  }
+  .single-footer-widget .info-list li {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .copyright-area {
+    margin-top: 45px;
+  }
+  .navbar-style-two-area .others-option .option-item .icon {
+    display: none;
+  }
+  .pediatric-dentist-banner-area {
+    padding-top: 70px;
+  }
+  .pediatric-dentist-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .pediatric-dentist-banner-content {
+    padding-top: 0;
+  }
+  .pediatric-dentist-banner-content .bottom-content {
+    margin-top: 55px;
+  }
+  .pediatric-dentist-banner-content .bottom-content p {
+    max-width: 365px;
+  }
+  .pediatric-dentist-banner-content .bottom-content .info {
+    margin-left: 30px;
+  }
+  .pediatric-dentist-banner-image {
+    height: 850px;
+    margin-left: 0;
+    margin-top: 35px;
+  }
+  .pediatric-dentist-banner-image .video-wrap {
+    left: 25px;
+    bottom: 25px;
+  }
+  .pediatric-dentist-banner-shape {
+    display: none;
+  }
+  .features-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .features-wrap-card {
+    padding: 30px;
+  }
+  .about-wrap-image {
+    padding-right: 0;
+  }
+  .about-wrap-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .services-wrap-item {
+    padding: 30px;
+    background-color: #F8F8F5;
+    border-radius: 10px;
+    border: none;
+  }
+  .services-wrap-item .services-left {
+    display: block;
+  }
+  .services-wrap-item .services-left .number {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    transform: unset;
+    margin-bottom: 15px;
+  }
+  .services-wrap-item .services-left h3 {
+    margin-bottom: 18px;
+  }
+  .services-wrap-item .services-left .arrow-btn {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .services-wrap-item .services-middle p {
+    max-width: 100%;
+  }
+  .services-wrap-item .services-right {
+    text-align: start;
+  }
+  .services-wrap-item .services-right .arrow-btn {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .services-wrap-item .services-right .services-image {
+    position: relative;
+    top: unset;
+    transform: unset;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 25px;
+  }
+  .services-wrap-item .services-right .services-image a img {
+    max-width: 100%;
+  }
+  .services-wrap-item:hover, .services-wrap-item.active {
+    padding: 30px;
+    border: none;
+  }
+  .review-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .insurance-wrap-item {
+    padding-right: 0;
+  }
+  .insurance-wrap-content {
+    padding: 50px;
+    margin-top: 35px;
+  }
+  .why-choose-us-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .fun-fact-area {
+    padding-top: 70px;
+    padding-bottom: 45px;
+  }
+  .navbar-style-three-area .others-option {
+    right: 85px;
+  }
+  .dental-treatment-banner-area {
+    padding-top: 180px;
+    padding-bottom: 50px;
+  }
+  .dental-treatment-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .dental-treatment-banner-area::before {
+    background: #000000;
+    opacity: 0.3;
+  }
+  .dental-treatment-banner-content h1 span::before {
+    display: none;
+  }
+  .dental-treatment-review-slider {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    max-width: 525px;
+    margin-top: 45px;
+  }
+  .dental-treatment-ratings {
+    display: none;
+  }
+  .category-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .category-card .list {
+    top: 20px;
+    left: 20px;
+    right: 20px;
+  }
+  .category-card .list li {
+    padding: 10px 7px;
+    font-size: 15px;
+  }
+  .category-card .content {
+    display: block;
+    padding: 20px;
+  }
+  .category-card .content h3 {
+    font-size: 25px;
+  }
+  .category-card .content .category-btn {
+    display: block;
+    margin-top: 25px;
+  }
+  .category-card .content .category-btn i {
+    margin-left: 0;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+  }
+  .advertise-view-content h1 {
+    font-size: 55px;
+  }
+  .overview-image {
+    height: 650px;
+  }
+  .overview-content {
+    padding: 30px;
+    margin-top: 30px;
+  }
+  .services-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .services-wrap-card {
+    padding: 30px;
+  }
+  .services-wrap-card .icon {
+    margin-bottom: 20px;
+  }
+  .services-wrap-card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .services-wrap-card p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+  }
+  .services-wrap-card .list {
+    margin-bottom: 15px;
+  }
+  .services-wrap-card .list li {
+    margin-bottom: 15px;
+  }
+  .services-wrap-card .services-btn {
+    margin-top: 10px;
+  }
+  .video-area.bg-wrap-two {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .appointment-without-bg-area {
+    margin-top: 70px;
+  }
+  .appointment-content {
+    top: 0;
+  }
+  .appointment-content h2 {
+    margin-bottom: 30px;
+  }
+  .review-wrap-content {
+    margin: 0 auto 45px;
+  }
+  .review-wrap-content .list li {
+    text-align: start;
+  }
+  .doctors-inner {
+    padding-right: 0;
+  }
+  .doctors-circle-card {
+    margin-top: 30px;
+  }
+  .doctors-faq-content {
+    padding: 25px;
+    margin-top: 30px;
+  }
+  .page-banner-area {
+    border-radius: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 250px;
+    padding-bottom: 70px;
+  }
+  .page-banner-area::before {
+    border-radius: 0;
+  }
+  .about-wrap-area.bg-with-color .about-wrap-content {
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .about-wrap-area.bg-with-color .about-wrap-image {
+    padding-left: 0;
+  }
+  .insurance-wrap-content.wrap-style-two {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .insurance-wrap-item.wrap-style-two {
+    padding-left: 0;
+  }
+  .appointment-wrap-box {
+    padding: 45px;
+  }
+  .cta-inner-area {
+    padding: 70px;
+  }
+  .cta-info {
+    justify-content: start;
+    margin-top: 25px;
+  }
+  .dentist-profile-sidebar {
+    margin-bottom: 30px;
+  }
+  .find-location-card .location-left .bottom {
+    margin-top: 25px;
+  }
+  .find-location-card .location-right {
+    text-align: start;
+    margin-top: 35px;
+  }
+  .find-location-card .location-right .location-btn {
+    margin-top: 25px;
+  }
+  .compassionate-list {
+    margin-top: 30px;
+  }
+  .new-patients-item .item {
+    display: block;
+  }
+  .new-patients-item .item h2 {
+    margin-bottom: 25px;
+  }
+  .ratings-wrap-box {
+    padding: 25px;
+  }
+  .services-wrap-area.without-bg-color .services-wrap-item {
+    background-color: #FFFFFF;
+    border: none;
+  }
+  .services-wrap-area.without-bg-color .services-wrap-item:hover, .services-wrap-area.without-bg-color .services-wrap-item.active {
+    border: none;
+  }
+  .services-details-sidebar {
+    margin-bottom: 30px;
+  }
+  .services-details-desc .desc-inner .number-list li {
+    font-size: 15px;
+  }
+  .blog-details-desc .article-footer .tags li a {
+    padding: 5px 7px;
+  }
+  .blog-details-desc .article-footer .social li a {
+    margin-right: 8px;
+  }
+  .blog-details-desc .article-footer .social li:last-child {
+    padding: 8px 10px;
+  }
+  .widget-area {
+    margin-top: 30px;
+  }
+  .checkout-info-sidebar {
+    margin-top: 30px;
+  }
+  .product-details-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .product-details-information-tabs .comments-form {
+    padding: 30px;
+  }
+}
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .ptb-150 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .pt-150 {
+    padding-top: 100px;
+  }
+  .pb-150 {
+    padding-bottom: 100px;
+  }
+  .pb-125 {
+    padding-bottom: 75px;
+  }
+  .top-header-area {
+    padding-bottom: 20px;
+  }
+  .top-header-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .top-header-left {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .top-header-info {
+    justify-content: center;
+  }
+  .navbar .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .navbar .navbar-inner {
+    padding: 10px 20px;
+  }
+  .navbar.sticky {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar.sticky .others-option {
+    right: 95px;
+  }
+  .navbar .collapse:not(.show) {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar .others-option {
+    position: absolute;
+    right: 75px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .navbar .others-option .option-item {
+    margin-right: 15px;
+  }
+  .navbar .others-option .option-item .default-btn {
+    padding: 10.5px 20px;
+    font-size: 15px;
+  }
+  .main-header-area {
+    padding-top: 20px;
+  }
+  .responsive-navbar .offcanvas-body .others-option {
+    display: none !important;
+  }
+  .dental-clinic-slider-area {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .dental-clinic-slider-item {
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    padding-top: 300px;
+    padding-bottom: 250px;
+  }
+  .dental-clinic-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .dental-clinic-slider-item::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .dental-clinic-slider-item .dental-clinic-ratings {
+    display: none;
+  }
+  .dental-clinic-video-wrap {
+    right: 50px;
+    bottom: 85px;
+  }
+  .about-image {
+    height: 700px;
+  }
+  .about-content {
+    padding: 30px 0 0 0;
+  }
+  .about-content p {
+    max-width: 100%;
+  }
+  .appointment-form .arrow-shape {
+    top: -50px;
+    right: 0;
+  }
+  .features-images {
+    display: flex;
+  }
+  .features-images .image {
+    margin-bottom: 0;
+    margin-right: 25px;
+  }
+  .features-images .image:last-child {
+    margin-right: 0;
+  }
+  .insurance-item {
+    height: 110px;
+    padding: 20px;
+  }
+  .doctors-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .blog-card {
+    margin-bottom: 25px;
+  }
+  .subscribe-inner-area {
+    padding: 70px;
+  }
+  .footer-area {
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .single-footer-widget.pe-5 {
+    padding-right: 0 !important;
+  }
+  .single-footer-widget.ps-5 {
+    padding-left: 0 !important;
+  }
+  .single-footer-widget .info-list li {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .navbar-style-two-area .others-option .option-item .icon {
+    display: none;
+  }
+  .pediatric-dentist-banner-area {
+    padding-top: 100px;
+  }
+  .pediatric-dentist-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .pediatric-dentist-banner-content {
+    padding-top: 0;
+  }
+  .pediatric-dentist-banner-content .bottom-content {
+    margin-top: 55px;
+  }
+  .pediatric-dentist-banner-image {
+    height: 1050px;
+    margin-left: 0;
+    margin-top: 35px;
+  }
+  .pediatric-dentist-banner-image .video-wrap {
+    left: 25px;
+    bottom: 25px;
+  }
+  .pediatric-dentist-banner-shape {
+    display: none;
+  }
+  .features-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .about-wrap-image {
+    padding-right: 0;
+  }
+  .about-wrap-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .services-wrap-item {
+    padding: 30px;
+    background-color: #F8F8F5;
+    border-radius: 10px;
+    border: none;
+  }
+  .services-wrap-item .services-left {
+    display: block;
+  }
+  .services-wrap-item .services-left .number {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    transform: unset;
+    margin-bottom: 15px;
+  }
+  .services-wrap-item .services-left h3 {
+    margin-bottom: 18px;
+  }
+  .services-wrap-item .services-left .arrow-btn {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0;
+  }
+  .services-wrap-item .services-middle p {
+    max-width: 100%;
+  }
+  .services-wrap-item .services-right {
+    text-align: start;
+  }
+  .services-wrap-item .services-right .arrow-btn {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .services-wrap-item .services-right .services-image {
+    position: relative;
+    top: unset;
+    transform: unset;
+    opacity: 1;
+    visibility: visible;
+  }
+  .services-wrap-item .services-right .services-image a img {
+    max-width: 100%;
+  }
+  .services-wrap-item:hover, .services-wrap-item.active {
+    padding: 30px;
+    border: none;
+  }
+  .review-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .insurance-wrap-item {
+    padding-right: 0;
+  }
+  .insurance-wrap-content {
+    margin-top: 35px;
+  }
+  .why-choose-us-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .why-choose-us-card .choose-content {
+    padding: 30px;
+  }
+  .why-choose-us-card .choose-content h3 {
+    font-size: 22px;
+  }
+  .navbar-style-three-area .others-option {
+    right: 95px;
+  }
+  .dental-treatment-banner-area {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  .dental-treatment-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .dental-treatment-banner-area::before {
+    background: #000000;
+    opacity: 0.2;
+  }
+  .dental-treatment-review-slider {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    max-width: 525px;
+    margin-top: 45px;
+  }
+  .dental-treatment-ratings {
+    top: 18%;
+    right: 2%;
+    transform: translateY(-18%) translateX(-2%);
+  }
+  .category-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .advertise-view-content h1 {
+    font-size: 55px;
+  }
+  .overview-image {
+    height: 1050px;
+  }
+  .overview-content {
+    margin-top: 30px;
+  }
+  .services-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .services-wrap-card {
+    padding: 30px;
+  }
+  .appointment-content {
+    top: -45px;
+  }
+  .review-wrap-content {
+    margin: 0 auto 45px;
+  }
+  .review-wrap-content .list li {
+    text-align: start;
+  }
+  .doctors-inner {
+    padding-right: 0;
+  }
+  .doctors-faq-content {
+    margin-top: 30px;
+    padding: 50px;
+  }
+  .blog-item .content {
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+  }
+  .page-banner-area {
+    border-radius: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 265px;
+    padding-bottom: 100px;
+  }
+  .page-banner-area::before {
+    border-radius: 0;
+  }
+  .about-wrap-area.bg-with-color .about-wrap-content {
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .about-wrap-area.bg-with-color .about-wrap-image {
+    padding-left: 0;
+  }
+  .insurance-wrap-content.wrap-style-two {
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+  .insurance-wrap-item.wrap-style-two {
+    padding-left: 0;
+  }
+  .cta-inner-area {
+    padding: 70px;
+  }
+  .cta-info span {
+    font-size: 15px;
+  }
+  .membership-plan-card {
+    padding: 35px;
+  }
+  .dentist-profile-sidebar .doctors-card .doctor-content .list li a {
+    padding: 5px 8px;
+    font-size: 14px;
+  }
+  .dentist-profile-sidebar .profile-info {
+    padding: 20px;
+  }
+  .dentist-profile-desc {
+    padding: 35px;
+  }
+  .compassionate-list li:nth-child(2) {
+    margin-left: 0;
+  }
+  .compassionate-list li:nth-child(3) {
+    margin-left: 0;
+  }
+  .new-patients-item .item {
+    padding: 35px;
+  }
+  .services-wrap-area.without-bg-color .services-wrap-item {
+    border-top: 1px solid rgba(160, 177, 193, 0.2);
+    border-bottom: 1px solid rgba(160, 177, 193, 0.2);
+  }
+  .services-details-sidebar {
+    margin-bottom: 30px;
+  }
+  .widget-area {
+    margin-top: 30px;
+  }
+  .checkout-info-sidebar .product-box {
+    padding: 25px;
+  }
+  .checkout-info-sidebar .payment-method {
+    padding: 25px;
+  }
+  .product-details-content {
+    padding-left: 0;
+    margin-top: 35px;
+  }
+}
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .ptb-150 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .pt-150 {
+    padding-top: 100px;
+  }
+  .pb-150 {
+    padding-bottom: 100px;
+  }
+  .pb-125 {
+    padding-bottom: 75px;
+  }
+  .top-header-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .top-header-left li {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  .top-header-info li {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  .navbar .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .navbar .navbar-inner {
+    padding: 0 20px;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+  }
+  .navbar .others-option .option-item {
+    margin-right: 10px;
+  }
+  .main-header-area {
+    padding-top: 25px;
+  }
+  .dental-clinic-slider-area {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .dental-clinic-slider-item {
+    border-radius: 0;
+  }
+  .dental-clinic-slider-item.bg-two .dental-clinic-ratings {
+    top: 50%;
+    right: 7%;
+    transform: translateY(-50%) translateX(-7%);
+  }
+  .dental-clinic-slider-item.bg-three .dental-clinic-ratings {
+    top: 50%;
+    right: 7%;
+    transform: translateY(-50%) translateX(-7%);
+  }
+  .dental-clinic-slider-item .dental-clinic-ratings {
+    top: 50%;
+    right: 7%;
+    transform: translateY(-50%) translateX(-7%);
+  }
+  .dental-clinic-video-wrap {
+    right: 35px;
+    bottom: 100px;
+  }
+  .what-we-do-card .content {
+    padding: 22px;
+  }
+  .what-we-do-card .content p {
+    font-size: 15.5px;
+  }
+  .about-content {
+    padding: 20px 0 20px 25px;
+  }
+  .about-content .list li:nth-child(2) {
+    left: 0;
+  }
+  .about-content .list li:nth-child(3) {
+    left: 0;
+  }
+  .about-content .info li {
+    margin-right: 10px;
+  }
+  .about-content .info li .default-btn {
+    padding: 15.5px 20px;
+  }
+  .appointment-form .arrow-shape {
+    right: 0px;
+  }
+  .features-content {
+    padding: 55px 20px;
+  }
+  .features-content p {
+    font-size: 18px;
+  }
+  .insurance-item {
+    height: 110px;
+    padding: 15px;
+  }
+  .doctors-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .real-results-card .real-content {
+    padding: 25px;
+  }
+  .blog-right-item .item {
+    padding: 18px;
+    margin-bottom: 10px;
+  }
+  .footer-area {
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .single-footer-widget.pe-5 {
+    padding-right: 0 !important;
+  }
+  .single-footer-widget.ps-5 {
+    padding-left: 0 !important;
+  }
+  .single-footer-widget .info-list li {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .pediatric-dentist-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .pediatric-dentist-banner-content .bottom-content {
+    margin-top: 55px;
+  }
+  .pediatric-dentist-banner-content .bottom-content p {
+    max-width: 300px;
+  }
+  .pediatric-dentist-banner-content .bottom-content .info {
+    margin-left: 35px;
+  }
+  .features-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .about-wrap-content {
+    padding-left: 0;
+  }
+  .services-wrap-item {
+    padding: 30px;
+    background-color: #F8F8F5;
+    border-radius: 10px;
+    border: none;
+  }
+  .services-wrap-item .services-left {
+    display: flex;
+  }
+  .services-wrap-item .services-left .number {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    transform: unset;
+    margin-bottom: 0;
+    margin-right: 45px;
+  }
+  .services-wrap-item .services-left h3 {
+    font-size: 25px;
+  }
+  .services-wrap-item .services-left .arrow-btn {
+    margin-left: 30px;
+  }
+  .services-wrap-item .services-middle p {
+    max-width: 100%;
+  }
+  .services-wrap-item .services-right {
+    text-align: start;
+  }
+  .services-wrap-item .services-right .arrow-btn {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .services-wrap-item .services-right .services-image {
+    position: relative;
+    top: unset;
+    transform: unset;
+    opacity: 1;
+    visibility: visible;
+  }
+  .services-wrap-item .services-right .services-image a img {
+    max-width: 100%;
+  }
+  .services-wrap-item:hover, .services-wrap-item.active {
+    padding: 30px;
+    border: none;
+  }
+  .review-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .review-wrap-card {
+    padding: 25px;
+  }
+  .insurance-wrap-content {
+    padding: 50px 30px;
+  }
+  .insurance-wrap-content .list li {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+  .why-choose-us-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .why-choose-us-card .choose-content {
+    padding: 30px;
+  }
+  .dental-treatment-banner-area {
+    padding-bottom: 395px;
+  }
+  .dental-treatment-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .dental-treatment-review-slider {
+    right: 50px;
+  }
+  .dental-treatment-ratings {
+    top: 20%;
+    right: 2%;
+    transform: translateY(-20%) translateX(-2%);
+  }
+  .category-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .overview-content {
+    padding: 45px 30px;
+  }
+  .overview-content .list li {
+    margin-right: 10px;
+  }
+  .services-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .appointment-content {
+    top: -50px;
+  }
+  .review-wrap-content {
+    margin: 0 auto 45px;
+  }
+  .review-wrap-content .list li {
+    text-align: start;
+  }
+  .doctors-inner {
+    padding-right: 0;
+  }
+  .doctors-faq-content {
+    padding: 45px 40px;
+  }
+  .page-banner-area {
+    border-radius: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .page-banner-area::before {
+    border-radius: 0;
+  }
+  .about-wrap-area.bg-with-color .about-wrap-content {
+    padding-right: 0;
+  }
+  .contact-info-card {
+    padding: 20px;
+  }
+  .services-wrap-area.without-bg-color .services-wrap-item {
+    border-top: 1px solid rgba(160, 177, 193, 0.2);
+    border-bottom: 1px solid rgba(160, 177, 193, 0.2);
+  }
+  .blog-details-desc .article-footer .social li:last-child {
+    padding: 10px;
+  }
+  .product-details-content {
+    padding-left: 35px;
+  }
+}
+/* Min width 1400px to Max width 1500px */
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+  .pediatric-dentist-banner-content .bottom-content p {
+    max-width: 420px;
+  }
+  .features-wrap-card {
+    padding: 27px;
+  }
+  .review-wrap-card {
+    padding: 35px;
+  }
+  .category-card .list {
+    top: 20px;
+    right: 20px;
+    left: 20px;
+  }
+  .category-card .content {
+    padding: 20px;
+  }
+}
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {
+  .top-header-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .top-header-wrap-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .navbar .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .navbar-style-two-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .navbar-style-three-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .dental-clinic-slider-item .container-fluid {
+    padding-left: 70px;
+    padding-right: 70px;
+    max-width: 1920px;
+  }
+  .dental-clinic-slider-item.bg-two .dental-clinic-ratings {
+    top: 45%;
+    right: 20%;
+    transform: translateY(-45%) translateX(-20%);
+  }
+  .dental-clinic-slider-item.bg-three .dental-clinic-ratings {
+    top: 50%;
+    right: 23%;
+    transform: translateY(-50%) translateX(-23%);
+  }
+  .dental-clinic-slider-item .dental-clinic-ratings {
+    top: 48%;
+    right: 25%;
+    transform: translateY(-48%) translateX(-25%);
+  }
+  .doctors-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .review-area::before {
+    width: 845px;
+  }
+  .review-arrow-shape {
+    top: 335px;
+    right: 255px;
+  }
+  .review-wrap-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .pediatric-dentist-banner-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .pediatric-dentist-banner-content h1 {
+    font-size: 72px;
+  }
+  .features-wrap-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .features-wrap-card {
+    padding: 50px 30px;
+  }
+  .features-wrap-bottom-shape {
+    bottom: 245px;
+  }
+  .why-choose-us-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .dental-treatment-banner-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .dental-treatment-ratings {
+    top: 28%;
+    right: 11%;
+    transform: translateY(-28%) translateX(-11%);
+  }
+  .category-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .services-wrap-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .services-wrap-card {
+    padding: 45px 40px;
+  }
+  .services-wrap-card p {
+    font-size: 17px;
+  }
+  .services-wrap-card .list li {
+    font-size: 15px;
+  }
+  .services-wrap-card .list li img {
+    margin-right: 12px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
